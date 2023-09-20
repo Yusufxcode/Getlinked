@@ -1,4 +1,4 @@
-import { Box, HStack, Text, Image, VStack } from "@chakra-ui/react";
+import { Box, HStack, Text, Image, VStack, Heading } from "@chakra-ui/react";
 import thought from "../assets/images/thoughts.png";
 import starPurple from "../assets/images/star pu.png";
 
@@ -8,12 +8,12 @@ const FAQ = () => {
       <Box>
         <Box ml={20}>
           <Image src={starPurple} mb={8} />
-          <Text color="white" fontSize="2xl" fontWeight="bold">
+          <Heading color="white" fontSize="2xl" fontWeight="bold">
             Frequently Ask
-          </Text>
-          <Text color="#D434FE" fontSize="2xl" fontWeight="bold">
+          </Heading>
+          <Heading color="#D434FE" fontSize="2xl" fontWeight="bold">
             Questions
-          </Text>
+          </Heading>
           <Text color="whiteAlpha.500">
             We got answers to the questions that you might want to ask about{" "}
             <span className="faq-snippet">getlinked Hackathon 1.0</span>

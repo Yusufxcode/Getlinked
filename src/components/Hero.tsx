@@ -1,4 +1,4 @@
-import { Box, HStack, Text, Image } from "@chakra-ui/react";
+import { Box, HStack, Text, Image, Heading } from "@chakra-ui/react";
 import headerImage from "../assets/images/header image.png";
 import headerLine from "../assets/images/header line.png";
 import creative from "../assets/images/Creative.png";
@@ -40,9 +40,9 @@ const Hero = () => {
         <Box ml={100} position="relative">
           <Image src={creative} position="absolute" top={-18} right={240} />
           <Image src={chainBlast} position="absolute" top={100} right={70} />
-          <Text color="white" fontSize="6xl" fontWeight="bold">
+          <Heading color="white" fontSize="6xl" fontWeight="bold">
             getlinked Tech Hackathon <span className="version">1.0</span>
-          </Text>
+          </Heading>
           <Text color="white" w="60%">
             Participate in getlinked tech Hackaton 2023 stand a chance to win a
             Big prize

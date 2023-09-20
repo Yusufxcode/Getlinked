@@ -1,13 +1,13 @@
-import { Box, HStack, Text } from "@chakra-ui/react";
+import { Box, HStack, Heading, Text } from "@chakra-ui/react";
 
 const Timeline = () => {
   return (
     <>
       <Box my={10}>
         <Box textAlign="center" color="white" mb={20}>
-          <Text fontSize="3xl" fontWeight="bold">
+          <Heading fontSize="3xl" fontWeight="bold">
             Timeline
-          </Text>
+          </Heading>
           <Text>
             Here is the breakdown of the time we anticipate using for the
             upcoming event.

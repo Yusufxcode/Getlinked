@@ -1,4 +1,4 @@
-import { Box, HStack, Image, Text, VStack } from "@chakra-ui/react";
+import { Box, HStack, Heading, Image, Text, VStack } from "@chakra-ui/react";
 import judges from "../assets/images/judges.png";
 
 const judge = () => {
@@ -10,12 +10,12 @@ const judge = () => {
 
       <Box w="40%">
         <Box mb={5}>
-          <Text color="white" fontSize="2xl" fontWeight="bold">
+          <Heading color="white" fontSize="2xl" fontWeight="bold">
             Judging Criteria
-          </Text>
-          <Text color="#D434FE" fontSize="2xl" fontWeight="bold">
+          </Heading>
+          <Heading color="#D434FE" fontSize="2xl" fontWeight="bold">
             Key Attributes
-          </Text>
+          </Heading>
         </Box>
 
         <VStack gap={5}>

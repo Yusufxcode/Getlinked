@@ -1,4 +1,4 @@
-import { Box, HStack, Image, Text } from "@chakra-ui/react";
+import { Box, HStack, Heading, Image, Text } from "@chakra-ui/react";
 import bigIdea from "../assets/images/The big idea.png";
 import curlyArrow from "../assets/images/curly arrow.png";
 import bossLady from "../assets/images/boss lady.png";
@@ -14,12 +14,12 @@ const Main = () => {
         </Box>
 
         <Box>
-          <Text color="white" fontSize="2xl" fontWeight="bold">
+          <Heading color="white" fontSize="2xl" fontWeight="bold">
             Introduction to getlinked
-          </Text>
-          <Text color="#D434FE" fontSize="2xl" fontWeight="bold">
+          </Heading>
+          <Heading color="#D434FE" fontSize="2xl" fontWeight="bold">
             tech Hackathon 1.0
-          </Text>
+          </Heading>
           <Text color="whiteAlpha.500" mt={5} w="90%">
             Our tech hackathon is a melting pot of visionaries, and its purpose
             is as clear as day: to shape the future. Whether you're a coding
@@ -33,12 +33,12 @@ const Main = () => {
 
       <HStack m={20} gap="10rem">
         <Box ml={10} position="relative">
-          <Text color="white" fontSize="2xl" fontWeight="bold">
+          <Heading color="white" fontSize="2xl" fontWeight="bold">
             Rules and
-          </Text>
-          <Text color="#D434FE" fontSize="2xl" fontWeight="bold">
+          </Heading>
+          <Heading color="#D434FE" fontSize="2xl" fontWeight="bold">
             Guidelines
-          </Text>
+          </Heading>
           <Text color="whiteAlpha.500" mt={5} w="90%">
             Our tech hackathon is a melting pot of visionaries, and its purpose
             is as clear as day: to shape the future. Whether you're a coding
