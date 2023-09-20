@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <>
       <Box display="flex" justifyContent="space-around" pt={10} pb={5}>
-        <Text fontSize="36" color="white">
+        <Text fontSize="36" color="white" className="logo">
           get<span className="linked">linked</span>
         </Text>
         <HStack gap={10}>

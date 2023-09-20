@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('./fonts/ClashDisplay-Bold.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Regular.otf') format('otf'),
+         url('./fonts/Montserrat-Bold.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Unica one';
+    src: url('./fonts/UnicaOne-Regular.ttf') format('ttf');
+}
