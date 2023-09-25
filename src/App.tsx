@@ -7,6 +7,11 @@ import Judge from "./components/judge";
 import FAQ from "./components/FAQ";
 import Timeline from "./components/Timeline";
 import Prizes from "./components/Prizes";
+import Partners from "./components/Partners";
+import Privacy from "./components/Privacy";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import Register from "./components/Register";
 
 function App() {
   return (
@@ -41,14 +46,16 @@ function App() {
         <GridItem pl="2" bg="#120B24" area={"prizes"}>
           <Prizes />
         </GridItem>
-        <GridItem pl="2" bg="pink.300" area={"partners"}>
-          Partners
+        <GridItem pl="2" bg="#170E2B" area={"partners"}>
+          <Partners />
         </GridItem>
-        <GridItem pl="2" bg="pink.300" area={"privacy"}>
-          Privacy
+        <GridItem pl="2" bg="#170E2B" area={"privacy"}>
+          <Privacy />
         </GridItem>
-        <GridItem pl="2" bg="blue.300" area={"footer"}>
-          Footer
+        <GridItem pl="2" bg="#120B24" area={"footer"}>
+          <Footer />
+          <Contact />
+          <Register />
         </GridItem>
       </Grid>
     </>

@@ -1,4 +1,5 @@
 import { Box, HStack, Heading, Text } from "@chakra-ui/react";
+import { motion } from "framer-motion";
 
 const NavBar = () => {
   return (
@@ -13,9 +14,9 @@ const NavBar = () => {
           <Text className="nav-link">FAQs</Text>
           <Text className="nav-link">Contact</Text>
         </HStack>
-        <button className="register-btn">
+        <motion.button whileHover={{ scale: 1.5 }} className="register-btn">
           <Text>Register</Text>
-        </button>
+        </motion.button>
       </Box>
       <hr />
     </>

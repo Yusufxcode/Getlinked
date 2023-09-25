@@ -3,7 +3,7 @@ import { Box, HStack, Heading, Text } from "@chakra-ui/react";
 const Timeline = () => {
   return (
     <>
-      <Box my={10}>
+      <Box my={20}>
         <Box textAlign="center" color="white" mb={20}>
           <Heading fontSize="3xl" fontWeight="bold">
             Timeline

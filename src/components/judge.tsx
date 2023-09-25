@@ -1,4 +1,5 @@
 import { Box, HStack, Heading, Image, Text, VStack } from "@chakra-ui/react";
+import { motion } from "framer-motion";
 import judges from "../assets/images/judges.png";
 
 const judge = () => {
@@ -51,6 +52,7 @@ const judge = () => {
             or APIs, and any other competition-specific requirements.
           </Text>
         </VStack>
+
         <button className="read-more-btn">Read More</button>
       </Box>
     </HStack>
